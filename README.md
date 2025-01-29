@@ -1,3 +1,21 @@
+1. Create a Class
+Endpoint:
+POST /api/classes
+
+Description:
+Create a new class in the system.
+
+Request Body:
+
+json
+{
+  "className": "Yoga Class",
+  "instructorName": "Jane Smith",
+  "startTime": "09:00:00",
+  "endTime": "10:00:00"
+}
+Response:
+Returns the created class entity with its generated ID.
 1. Create a Booking
 Endpoint:
 POST /api/bookings
